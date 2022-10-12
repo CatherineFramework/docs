@@ -2,7 +2,9 @@
 title: Developing Modules
 ---
 
-# Developing Modules
+# :crab: Developing Modules :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

@@ -2,7 +2,9 @@
 title: Going Further
 ---
 
-# Going Further
+# :crab: Going Further :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

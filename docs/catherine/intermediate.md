@@ -2,7 +2,9 @@
 title: Intermediate
 ---
 
-# Intermediate
+# :crab: Intermediate :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

@@ -2,7 +2,9 @@
 title: Miscellaneous
 ---
 
-# Miscellaneous
+# :crab: Miscellaneous :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

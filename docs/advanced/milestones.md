@@ -2,7 +2,9 @@
 title: Milestones
 ---
 
-# Milestones
+# :crab: Milestones :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

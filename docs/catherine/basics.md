@@ -2,7 +2,9 @@
 title: Basics
 ---
 
-# Basics
+# :crab: Basics :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

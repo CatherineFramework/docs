@@ -2,7 +2,9 @@
 title: Contributors
 ---
 
-# Contributors
+# :crab: Contributors :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

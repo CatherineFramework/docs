@@ -2,7 +2,9 @@
 title: Getting Started
 ---
 
-# Getting Started
+# :crab: Getting Started :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

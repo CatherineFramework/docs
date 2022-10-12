@@ -2,7 +2,9 @@
 title: Rules of Conduct
 ---
 
-# Rules of Conduct
+# :crab: Rules of Conduct :crab:
+
+### Coming soon!
 
 ::: details Support The Project
 | Name | Link |

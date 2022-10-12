@@ -43,7 +43,7 @@ function mainContent() {
             ]
         },
         { text: "Contact", link: "contact" },
-        { text: "Catherine: v0.0.26" },
-        { text: "Docs: v0.0.3" }
+        { text: "Catherine: v0.0.29" },
+        { text: "Docs: v0.0.6" }
     ];
 }
