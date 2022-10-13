@@ -1,3 +1,3 @@
-# catherine-framework.github.io
+# Catherine Framework Documentation
 
-Main website and documentation for the Catherine Framework
+This is a temporary domain for the Catherine framework!
