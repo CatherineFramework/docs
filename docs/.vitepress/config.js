@@ -5,45 +5,45 @@ module.exports = {
     themeConfig: {
         // logo: '/my-logo.svg',
         sidebar: {
-            "/": mainContent()
+            "/catherine-docs": mainContent()
         }
     }
 };
 
 function mainContent() {
     return [
-        { text: "Home", link: "/" },
+        { text: "Home", link: "/catherine-docs" },
         {
             text: "Introduction",
             children: [
-                { text: "Learn More", link: "/introduction/learn-more" },
-                { text: "Modules", link: "/introduction/modules" },
+                { text: "Learn More", link: "/catherine-docs/introduction/learn-more" },
+                { text: "Modules", link: "/catherine-docs/introduction/modules" },
                 {
                     text: "Rules of Conduct",
-                    link: "/introduction/rules-of-conduct"
+                    link: "/catherine-docs/introduction/rules-of-conduct"
                 }
             ]
         },
         {
             text: "Using Catherine",
             children: [
-                { text: "Getting Started", link: "/catherine/getting-started" },
-                { text: "Basics", link: "/catherine/basics" },
-                { text: "Intermediate", link: "/catherine/intermediate" },
-                { text: "Miscellaneous", link: "/catherine/miscellaneous" }
+                { text: "Getting Started", link: "/catherine-docs/catherine/getting-started" },
+                { text: "Basics", link: "/catherine-docs/catherine/basics" },
+                { text: "Intermediate", link: "/catherine-docs/catherine/intermediate" },
+                { text: "Miscellaneous", link: "/catherine-docs/catherine/miscellaneous" }
             ]
         },
         {
             text: "Advanced",
             children: [
-                { text: "Going Further", link: "/advanced/going-further" },
-                { text: "Developing Modules", link: "/advanced/development" },
-                { text: "Contributors", link: "/advanced/contributors" },
-                { text: "Milestones", link: "/advanced/milestones" }
+                { text: "Going Further", link: "/catherine-docs/advanced/going-further" },
+                { text: "Developing Modules", link: "/catherine-docs/advanced/development" },
+                { text: "Contributors", link: "/catherine-docs/advanced/contributors" },
+                { text: "Milestones", link: "/catherine-docs/advanced/milestones" }
             ]
         },
         { text: "Contact", link: "contact" },
-        { text: "Catherine: v0.0.29" },
-        { text: "Docs: v0.0.6" }
+        { text: "Catherine: v0.0.36" },
+        { text: "Docs: v0.0.7" }
     ];
 }
