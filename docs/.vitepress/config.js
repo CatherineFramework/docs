@@ -1,18 +1,18 @@
 module.exports = {
-    title: "Catherine Framework Documentation",
+    title: "Home",
     description:
         "Catherine is a speedy 'pocket' information gathering framework built in Rust!",
     themeConfig: {
         // logo: '/my-logo.svg',
         sidebar: {
-            "/catherine-docs": mainContent()
+            "/": mainContent()
         }
     }
 };
 
 function mainContent() {
     return [
-        { text: "Home", link: "/catherine-docs" },
+        { text: "Catherine Framework Documentation", link: "/catherine-docs/index" },
         {
             text: "Introduction",
             children: [
@@ -42,7 +42,7 @@ function mainContent() {
                 { text: "Milestones", link: "/catherine-docs/advanced/milestones" }
             ]
         },
-        { text: "Contact", link: "contact" },
+        { text: "Contact", link: "/catherine-docs/contact" },
         { text: "Catherine: v0.0.36" },
         { text: "Docs: v0.0.7" }
     ];

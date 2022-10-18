@@ -3,7 +3,31 @@
 @tailwind utilities;
 
 @layer base {
-    a {
-        @apply text-blue-500 !important;
+    a, .sidebar-link-item {
+        color: #e1e1e1 !important;
+    }
+
+    a:hover {
+        box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+    }
+
+    body, .details, table tr {
+        border: #000 solid 2px !important;
+        background: #1a1a1a !important;
+        color: #ffffff !important;
+        box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+    }
+
+    header {
+        background: #000000 !important;
+        color: #ffffff !important;
+    }
+
+    pre, code {
+        background: #242424 !important;
+    }
+
+    .sidebar {
+        background: #242424 !important;
     }
 }
