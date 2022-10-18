@@ -3,7 +3,6 @@
     "version": "0.1.8",
     "description": "Catherine framework documentation",
     "main": "index.js",
-    "homepage": "https://hifumi1337.github.io/catherine-docs",
     "scripts": {
         "dev": "next dev",
         "start": "next start",
