@@ -4,7 +4,47 @@ title: Developing Modules
 
 # 🦀 Developing Modules 🦀
 
-### Coming soon!
+## Setting up Environment
+Setting an environment for Catherine development is a pretty quick and simple setup.
+
+Assuming you already have `cargo` installed, all you'll need to do is run `cargo check` or `cargo run` to verify the source is not throwing any errors. Once this is confirmed, you can start developing modules!
+
+## Create a Module
+Creating a module is a bit tedious right now, but should only take about < 2 minutes.
+
+Step by step guide:
+
+1. Open the `commands.rs` file located under `src/core/`
+2. Use this line as a template (`const MODULE_PATH: &str = "modules/ModuleCat/ModuleName/dist/ExecName";`) to properly link your module. If unsure of how to format this, compare to the already established modules and try to follow the same format
+3. Once the module has been linked, add the constant in the Command argument (check image below for example)
+
+<br /><img src="../images/custom_module_example.png" style={{ borderRadius: "5px", boxShadow: "rgba(0, 0, 0, 0.5) 0px 5px 15px" }} />
+
+4. This step will require a bit of Rust knowledge, but don't worry, it's easy. Find the `Lion` module and just copy the match statement. Then change the path to your module. An example is posted below
+
+<br /><img src="../images/custom_module_example_2.png" style={{ borderRadius: "5px", boxShadow: "rgba(0, 0, 0, 0.5) 0px 5px 15px" }} />
+
+5. You're now good to go!
+
+NOTE: Please make sure your executable (built binary) is present in the directory specified or an error will be thrown.
+
+How to test:
+
+Run the `cargo run` command to start the Catherine shell
+```bash
+cargo run
+```
+
+Next set the module you'd like to test
+```bash
+🦀 Catherine [v0.x.x]⚡(None) 🌑  〉 set_module
+🦀 Catherine [v0.x.x]⚡(set_module) 🌑  〉 YourModule
+```
+
+Now you should see the module output. If you run into any issues, feel free to reach out. The module process will most likely improve over time.
+
+## Submitting a Pull Request
+We are currently working on putting together a style guide and PULL_REQUEST.md document. For now, you can fork the repository or branch off and open a PR with in-depth information about your changes.
 
 ### Support the project
 
