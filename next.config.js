@@ -1,10 +1,12 @@
+const withMarkdoc = require("@markdoc/next.js")
+
 /** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  pageExtensions: ["js", "jsx", "md"],
+  experimental: {
+    scrollRestoration: true,
+  },
+}
 
-const nextConfig = require("nextra")({
-    theme: "nextra-theme-docs",
-    themeConfig: "./theme.config.js",
-    darkmode: true,
-    images: { unoptimized: true }
-});
-
-module.exports = nextConfig();
+module.exports = withMarkdoc()(nextConfig)

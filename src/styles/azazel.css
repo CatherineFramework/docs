@@ -1,0 +1,7 @@
+/* Extra mobile styles */
+
+@media (max-width: 1024px) {
+  .mobile-hide-img {
+    opacity: 0;
+  }
+}
